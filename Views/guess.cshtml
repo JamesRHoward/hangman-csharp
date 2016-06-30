@@ -1,0 +1,10 @@
+<!-- string to guess -->
+
+
+<p>@Model.GetBlanks()</p>
+
+<form action="/guess_result" method="post">
+  <label>Guess Letter: </label>
+  <input type="text" name="letter" minlength="1" maxlength="1">
+  <button type="submit" name="button">Guess</button>
+</form>
